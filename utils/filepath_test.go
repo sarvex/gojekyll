@@ -10,7 +10,10 @@ import (
 )
 
 func timeMustParse(s string) time.Time {
-	t, err := time.Parse(time.RFC3339, s)
+	// ParseInLocation is necessary on Windows. time.Parse defaults to
+	// time.Location("") which doesn't match the times returned by the tested
+	// functions.
+	t, err := time.ParseInLocation(time.RFC3339, s, time.Local)
 	if err != nil {
 		panic(err)
 	}

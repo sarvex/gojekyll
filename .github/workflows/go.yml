@@ -2,7 +2,7 @@ name: Build Status
 
 on:
   push:
-    branches: [ main, master, build-action ]
+    branches: [ main, master, build-action, windows ]
   pull_request:
     branches: [ main, master ]
 
@@ -11,7 +11,7 @@ jobs:
     strategy:
       matrix:
         go-version: [1.17.x]
-        os: [ubuntu-latest, macos-latest] # TODO: windows-latest
+        os: [ubuntu-latest, macos-latest, windows-latest]
     runs-on: ${{ matrix.os }}
 
     steps:

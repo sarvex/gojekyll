@@ -13,7 +13,7 @@ require (
 	github.com/k0kubun/pp v3.0.1+incompatible
 	github.com/kyokomi/emoji v2.2.4+incompatible
 	github.com/montanaflynn/stats v0.7.1
-	github.com/osteele/liquid v1.3.1
+	github.com/osteele/liquid v1.3.2
 	github.com/pkg/browser v0.0.0-20210911075715-681adbf594b8
 	github.com/radovskyb/watcher v1.0.7
 	github.com/stretchr/testify v1.8.4

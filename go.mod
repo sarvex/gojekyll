@@ -7,7 +7,7 @@ require (
 	github.com/alecthomas/kingpin/v2 v2.3.2
 	github.com/bep/godartsass/v2 v2.0.0
 	github.com/danog/blackfriday/v2 v2.1.6
-	github.com/fsnotify/fsnotify v1.6.0
+	github.com/fsnotify/fsnotify v1.7.0
 	github.com/google/go-github v17.0.0+incompatible
 	github.com/jaschaephraim/lrserver v0.0.0-20171129202958-50d19f603f71
 	github.com/k0kubun/pp v3.0.1+incompatible

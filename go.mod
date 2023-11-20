@@ -4,7 +4,7 @@ go 1.20
 
 require (
 	github.com/alecthomas/chroma v0.10.0
-	github.com/alecthomas/kingpin/v2 v2.3.2
+	github.com/alecthomas/kingpin/v2 v2.4.0
 	github.com/bep/godartsass/v2 v2.0.0
 	github.com/danog/blackfriday/v2 v2.1.6
 	github.com/fsnotify/fsnotify v1.6.0
